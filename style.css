@@ -1,0 +1,97 @@
+/* General */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+/* Header */
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    min-height: 64px;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.header li {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header img {
+    width: 24px;
+    height: auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.main-content img {
+    width: 212px;
+    height: auto;
+}
+
+/* Content-Hearts */
+
+.player-hearts, .computer-hearts {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart {
+    width: 96px;
+    height: auto;
+}
+
+/* Content-Output */
+
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choices {
+    display: flex;
+    gap: 36px;
+}
+
+/* Content-Input */
+
+.input {
+    display: flex;
+    gap: 36px;
+}
